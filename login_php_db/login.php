@@ -3,7 +3,7 @@ session_start();
 
 require_once "db.php";
 
-if (isset($_SESSION['user_id']) != "") {
+if (isset($_SESSION['user_id']) != "") {  //Mantiene l'accesso 
     header("Location: dashboard.php");
 }
 
@@ -65,7 +65,9 @@ if (isset($_POST['login'])) {
 
                     <input type="submit" class="btn btn-primary" name="login" value="Submit">
                     <br>
-                    You don't have account?<a href="registration.php" class="mt-3">Click Here</a>
+                    You don't have an account?<a href="registration.php" class="mt-3">Click Here</a>
+                    <br>
+                    Forgot password?<a href="../OTP/Index.php" class="mt-3">Click Here</a>
 
 
                 </form>
