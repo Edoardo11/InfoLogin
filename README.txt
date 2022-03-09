@@ -8,4 +8,3 @@ In db.php è possibile modificare le informazioni relative alla connesione con i
 
 Apri registration.php per registrazione,
 Apri login.php per accedere.
-
